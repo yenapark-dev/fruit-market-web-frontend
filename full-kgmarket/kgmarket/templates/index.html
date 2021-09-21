@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- My CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Kalam&family=Noto+Sans+JP&display=swap"
+    rel="stylesheet">
+  <!-- Icon -->
+  <script src="https://kit.fontawesome.com/d333ce52ee.js" crossorigin="anonymous"></script>
+  <title>Kelvin Grove Farmers Market</title>
+</head>
+
+<body>
+  <header>
+    <!-- Navbar -->
+    <nav class="container navbar fixed-top navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="index.html">Kelvin Grove Farmers Market</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Shop
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#vegies">Vegetables</a>
+              <a class="dropdown-item" href="#seafood">Seafood</a>
+              <a class="dropdown-item" href="#meat">Meat</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#motto">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-us">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-cart-plus fa-xs"></i> Cart</a>
+          </li>
+
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron container" style="background-image: url(image/market.png);">
+      <h1 class="display-4">Your Local Market</h1>
+      <p class="lead">delivered to your door</p>
+      <hr class="my-4">
+      <p>Natural food is one of life’s true joys – and shopping for it should be too! We deliver fresh produce from the
+        markets every day.</p>
+      <a class="btn btn-success btn-lg" href="#footer" role="button">Our story</a>
+    </div>
+
+  </header>
+
+  <main>
+    <!-- All of item list -->
+    <section class="container" id="item-list">
+      <div class="item-list">
+        <!-- List of vegies -->
+        <section class="container" id="vegies">
+          <header class="heading-line">
+            <h4 class="title-category"><strong>VEGIES</strong></h4>
+          </header>
+          <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4">
+              <figure class="card card-product-grid card-sm container-fluid">
+                <a href="productDetail.html"><img class="img-fluid" src="image/spinach.jpg"></a>
+                <a class="title" href="productDetail.html">Spinach (Bunch)</a>
+                <p class="text-muted">Product of Australia</p>
+                <div class="bottom-wrap">
+                  <a href="#" class="btn btn-dark float-right">Add to Cart</a>
+                  <span class="price h5">$3.49<small> ea</small></span>
+                </div>
+              </figure>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <figure class="card card-product-grid card-sm container-fluid">
+                <a href="productDetail.html"><img class="img-fluid" src="image/pumpkin.jpg"></a>
+                <a class="title" href="productDetail.html">Jack O'Lantern Pumpkin (2kg)</a>
+                <p class="text-muted">Product of Australia</p>
+                <div class="bottom-wrap">
+                  <a href="" class="btn btn-dark float-right">Add to Cart</a>
+                  <span class="price h5">$8<small> ea</small></span>
+                </div>
+              </figure>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <figure class="card card-product-grid card-sm container-fluid">
+                <a href="productDetail.html"><img class="img-fluid" src="image/tomato.png"></a>
+                <a class="title" href="productDetail.html">Tomatoes Grape (500g)</a>
+                <p class="text-muted">Product of Australia</p>
+                <div class="bottom-wrap">
+                  <a href="" class="btn btn-dark float-right">Add to Cart</a>
+                  <span class="price h5">$5<small> ea</small></span>
+                </div>
+              </figure>
+            </div>
+
+          </div>
+        </section>
+        <!-- List of seafood -->
+        <section class="container" id="seafood">
+          <header class="heading-line">
+            <h4 class="title-category"><strong>SEAFOOD</strong></h4>
+          </header>
+          <!-- List of items: seafood -->
+          <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4">
+              <figure class="card card-product-grid card-lg container-fluid">
+                <a href="productDetail.html"><img class="img-fluid" src="image/salmon.jpg"></a>
+                <a class="title" href="productDetail.html">Salmon Skin-on Fillets (500g)</a>
+                <p class="text-muted">Product of New Zealand</p>
+                <div class="bottom-wrap">
+                  <a href="" class="btn btn-dark float-right">Add to Cart</a>
+                  <span class="price h5">$29.39<small> ea</small></span>
+                </div>
+              </figure>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <figure class="card card-product-grid card-lg container-fluid">
+                <a href="productDetail.html"><img class="img-fluid" src="image/oyster.png"></a>
+                <a class="title" href="productDetail.html">Fresh Pacific Oysters (1 dozen)</a>
+                <p class="text-muted">Product of Australia</p>
+                <div class="bottom-wrap">
+                  <a href="" class="btn btn-dark float-right">Add to Cart</a>
+                  <span class="price h5">$22.99<small> ea</small></span>
+                </div>
+              </figure>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <figure class="card card-product-grid card-lg container-fluid">
+                <a href="productDetail.html"><img class="img-fluid" src="image/prawn.png"></a>
+                <a class="title" href="productDetail.html">Cooked Tiger Prawns (500g)</a>
+                <p class="text-muted">Product of Australia</p>
+                <div class="bottom-wrap">
+                  <a href="" class="btn btn-dark float-right">Add to Cart</a>
+                  <span class="price h5">$17.50<small> ea</small></span>
+                </div>
+              </figure>
+            </div>
+
+          </div>
+        </section>
+        <!-- List of meat -->
+        <section class="container" id="meat">
+          <header class="heading-line">
+            <h4 class="title-category"><strong>MEAT</strong></h4>
+          </header>
+
+          <!-- List of items: meat -->
+          <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4">
+              <figure class="card card-product-grid card-lg container-fluid">
+                <a href="productDetail.html"><img class="img-fluid" src="image/beef.png"></a>
+                <a class="title" href="productDetail.html">Beef Eye Fillet Steaks (500g)</a>
+                <p class="text-muted">Product of Australia</p>
+                <div class="bottom-wrap">
+                  <a href="" class="btn btn-dark float-right">Add to Cart</a>
+                  <div class="price-wrap">
+                    <span class="price h5">$26.50<small> ea</small></span>
+                  </div>
+                </div>
+              </figure>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <figure class="card card-product-grid card-lg container-fluid">
+                <a href="productDetail.html"><img class="img-fluid" src="image/chicken.JPG"></a>
+                <a class="title" href="productDetail.html">Whole Chicken (2kg)</a>
+                <p class="text-muted">Product of Australia</p>
+                <div class="bottom-wrap">
+                  <a href="" class="btn btn-dark float-right">Add to Cart</a>
+                  <div class="price-wrap">
+                    <span class="price h5">$15.36<small> ea</small></span>
+                  </div>
+                </div>
+              </figure>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <figure class="card card-product-grid card-lg container-fluid">
+                <a href="productDetail.html"><img class="img-fluid" src="image/pork.png"></a>
+                <a class="title" href="productDetail.html">Pork Cutlet (1kg)</a>
+                <p class="text-muted">Product of Australia</p>
+                <div class="bottom-wrap">
+                  <a href="" class="btn btn-dark float-right">Add to Cart</a>
+                  <div class="price-wrap">
+                    <span class="price h5">$21.99<small> ea</small></span>
+                  </div>
+                </div>
+              </figure>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="container" id="motto">
+      <div class="row justify-content-center">
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <p><img class="img-fluid" src="image/motto1.png" /></p>
+          <h4>Better quality&value</h4>
+          <p>While living more sustainably and reducing waste in the environment</p>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <p><img class="img-fluid" src="image/motto2.png" /></p>
+          <h4>Order from local vendors</h4>
+          <p>When you purchase,<br>you directly support your local community</p>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <p><img class="img-fluid" src="image/motto3.png" /></p>
+          <h4>Your goods are delivered</h4>
+          <p>Your local vendors will manage and deliver their orders to you personally</p>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <p><img class="img-fluid" src="image/motto4.png" /></p>
+          <h4>Help your community</h4>
+          <p>Your neighbours and local economy will benefit from your support</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials and Contact us -->
+    <section class="container" id="testimonials">
+      <div class="row justify-content-center">
+        <div class="col-lg-3 col-md-5 col-sm-8 card">
+          <img src="image/testimonial1.jpg" class="card-img-top rounded-circle">
+          <div class="card-body">
+            <p class="card-text">"I'm saving so much time, get the freshest produce and make sure my local shops stay
+              well. I know where and who grew it."</p>
+            <p><small>- Julie, a teacher from Woolloongabba</small></p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-5 col-sm-8 card">
+          <img src="image/testimonial2.jpg" class="card-img-top rounded-circle">
+          <div class="card-body">
+            <p class="card-text">"It lets us enjoy market quality produce without the hassle. It fits perfectly into
+              our week, and I can serve great food all the time!"</p>
+            <p><small>- Peter, a local restaurant owner from Newfarm</small></p>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-8 col-sm-10" id="contact-us">
+          <form method="POST">
+            <h4>Contact us</h4>
+            <label for="contact-name">Name:</label><br>
+            <input type="text" id=contact-name><br>
+            <label for="contact-email">Email Address:</label><br>
+            <input type="email" id=contact-email><br>
+            <label for="message">Message:</label><br>
+            <textarea rows="3" cols="39"></textarea><br>
+            <input type="radio" id="general-enquiry" name="contact-for">
+            <label for="general-enquiry">General Enquiry</label>
+            <input type="radio" id="feedback" name="contact-for">
+            <label for="feedback">Feedback</label><br>
+            <button type="submit" class="btn btn-dark">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-4 col-lg-4 footer-ourstory">
+            <h3>Our story</h3>
+            <p>
+              We are a young company always looking for new and creative ideas to help you with our products in your
+              everyday food.
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-4 footer-connect">
+            <h3>Connect</h3>
+            <p><i class="fas fa-map-marker-alt"></i> Via 10 kelvin st, QLD 4053 Australia</p>
+            <p><i class="fas fa-phone"></i> Phone: (+62) 433 128 347</p>
+            <p><i class="fas fa-envelope"></i> Email: kgfarmersmarket@qut.edu.au</p>
+          </div>
+          <div class="col-md-4 col-lg-3 footer-sns">
+            <h3>Follow us</h3>
+            <div class="sns-icons">
+              <p>
+                <a href="#"><i class="fab fa-facebook-f fa-lg"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g fa-lg"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+                <a href="#"><i class="fab fa-pinterest fa-lg"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="footer-copyright">
+          <p>Copyright &copy; Kelvin Grove Farmers Market</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
