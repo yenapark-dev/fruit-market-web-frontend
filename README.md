@@ -1,5 +1,5 @@
 # fruit-market-web-frontend
-Front-end prototype e-commerce web app with HTML, CSS and Bootstrap
+Client-side prototype e-commerce web app with HTML, CSS and Bootstrap
 
 <p>Design a web application using the Model-view-controller (MVC) architecture pattern</p>
 <img width="527" alt="IMG_1181" src="https://user-images.githubusercontent.com/78086845/134156508-52756289-1ae8-4542-bdd6-a470b01a2ae1.PNG">
